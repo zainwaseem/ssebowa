@@ -1,0 +1,70 @@
+.HeaderBannerContent {
+  background: url("../../assets/Banner.png");
+  height: 90vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+}
+.HeaderBannerContent .header-title {
+  font-size: 48px;
+  font-family: "Jost";
+  font-weight: 700;
+  font-style: normal;
+  letter-spacing: 1.44444px;
+  color: #ffffff;
+  text-align: center;
+  padding: 1rem;
+  line-height: 70px;
+}
+.header-Search {
+  display: flex;
+  margin-top: 20px;
+}
+.header-banner-search-button {
+  flex-direction: row;
+  padding: 16px 40px;
+  gap: 10px;
+  margin-left: 5px;
+
+  background: #3faf04;
+  box-shadow: 0px 24px 64px rgba(0, 0, 0, 0.12);
+  border-radius: 8px;
+}
+.header-Search-input-icon {
+  display: flex;
+  border: 1px solid #e6e6e6;
+  background: #ffffff;
+  border-radius: 8px;
+  width: 380px;
+  padding: 10px 15px;
+  color: #333333;
+  margin: 0 10px;
+}
+.header-Search-input-icon input {
+  padding: 0 20px;
+  outline: none;
+  border: none;
+  width: 380px;
+}
+
+@media only screen and (max-width: 600px) {
+  .header-Search-input-icon {
+    display: flex;
+    border: 1px solid #e6e6e6;
+    background: #ffffff;
+    border-radius: 8px;
+    width: 230px;
+    padding: 10px 15px;
+    color: #333333;
+    margin: 0 10px;
+  }
+  .header-Search-input-icon input {
+    padding: 0 20px;
+    outline: none;
+    border: none;
+    width: 100%;
+  }
+}
