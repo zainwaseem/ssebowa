@@ -1,0 +1,54 @@
+.team-main-container {
+  clip-path: polygon(
+    50% 20%,
+    100% 0,
+    100% 60%,
+    100% 100%,
+    50% 82%,
+    0 100%,
+    0 0
+  );
+
+  height: 995.7286510612242px;
+  width: 100%;
+  background: #3eac04;
+
+  color: white;
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.team-main-container .team-main-container-title {
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 27px;
+  position: absolute;
+  top: 250px;
+  left: 295px;
+  font-size: 48px;
+}
+.team-main-container .team-main-container-desc {
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: 0em;
+  text-align: center;
+  font-weight: 400;
+  font-style: normal;
+  position: absolute;
+  top: 305px;
+  left: 220px;
+  width: 930px;
+}
+
+.team-main-slider {
+  width: 100%;
+}
+
+.team-main-slider {
+  margin-top: 15rem;
+}

@@ -1,0 +1,13 @@
+.items-styles {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 250px;
+  width: 100%;
+  /* background-color: #683bb7; */
+  background: #3eac04;
+
+  color: #fff;
+  margin: 75px;
+  font-size: 4em;
+}

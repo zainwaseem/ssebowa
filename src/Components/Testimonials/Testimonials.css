@@ -1,0 +1,29 @@
+.testimonials-main-container {
+  height: 60vh;
+  width: 100%;
+  text-align: center;
+  margin-top: 100px;
+  width: 100%;
+}
+.testimonials-data {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.testimonials-data h1 {
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 64px;
+  text-align: center;
+}
+.testimonials-data p {
+  font-style: normal;
+  font-weight: 400;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #808080;
+  text-align: center;
+}
