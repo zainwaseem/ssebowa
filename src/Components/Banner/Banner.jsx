@@ -1,4 +1,3 @@
-import BannerBg from "../../assets/Banner.png";
 import searchicon from "../../assets/searchIcon.png";
 import "./Banner.css";
 
@@ -17,6 +16,7 @@ const Banner = () => {
           </div>
           <button className="header-banner-search-button"> Search</button>
         </div>
+
       </div>
     </>
   );
