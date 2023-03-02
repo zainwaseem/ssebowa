@@ -1,0 +1,19 @@
+.blog-info {
+  width: auto;
+  height: auto;
+}
+@media only screen and (max-width: 800px) {
+  /* .selfCard {
+    width: 220px;
+    height: 208px;
+  }
+  .SelfCard1 {
+    top: 72px;
+    left: -208px;
+  }
+  .SelfCard2 {
+    top: 102px;
+
+    left: 48px;
+  } */
+}

@@ -10,10 +10,18 @@ const Banner = () => {
         <h1 className="header-title">
           Make The World Green Again <br /> With Your Searches
         </h1>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed <br />
+          do eiusmod tempor incididunt ut labore et dolore magna{" "}
+        </p>
         <div className="header-Search">
           <div className="header-Search-input-icon">
             <img src={searchicon} alt="" />
-            <input type="text" placeholder="Search the Web to Plant Trees" />
+            <input
+              type="text"
+              placeholder="Search the Web to Plant Trees"
+              className="SearchInputField"
+            />
           </div>
           <button className="header-banner-search-button"> Search</button>
         </div>
